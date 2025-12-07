@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Initial D: Touge Spirit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav nav-center">
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="#aboutcards">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="#leaderboard">Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="#download">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- scroll to top button -->
+    <button onclick="topFunction()" id="btn-top">Top</button>
+
+    <div class="container-fluid">
+        <section>
+            <div class="d-flex justify-content-center align-items-center" style="margin-top: 200px; margin-bottom: 400px;">
+                <div class="row">
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <img src="Assets/Logo.PNG" height="200" alt="">
+                        <div style="margin-top: 20px;">
+                            <a href="#download" class="button-home" style="text-decoration: none;">
+                                <span>Start Racing</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about cards -->
+        <div class="row" id="aboutcards">
+            <div class="bck-solid">
+                <div class="row m-auto text-center" style="width: 80%; margin-top: 100px !important;">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Assets/Screenshots/SCR_01.PNG" class="img-fluid rounded mx-auto d-block img-about" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title title">About</h1>
+                                <br>
+                                <p class="card-text">IDTS is a free, fanmade arcade racing game based on Initial D Stage 1. It recreates <br> the intense downhill battles with a visual style inspired by the Legend movie trilogy.</p>
+                                <p class="card-text">This game is a non-profit passion project. Everything <br> from models to physics is created by the community.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row m-auto text-center" style="width: 80%; margin-top: 100px !important;">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title title">Choose Your Ride</h1>
+                                <br>
+                                <p class="card-text">Choose from iconic cars straight out of the Initial D anime and hit the mountain passes</p>
+                                <p class="card-text">The game is currently in development. Not all cars are included yet, <br> but new ones are introduced frequently through ongoing updates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Assets/Screenshots/SCR_02.PNG" class="img-fluid rounded mx-auto d-block img-about" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row m-auto text-center" style="width: 80%; margin-top: 100px !important;">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="Assets/Screenshots/SCR_03.PNG" class="img-fluid rounded mx-auto d-block img-about" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title title">Gamemodes</h1>
+                                <br>
+                                <p class="card-text">Race through multiple game modes:</p>
+                                <br>
+                                <ul style="list-style-type: none; text-align: left;">
+                                    <li><strong>Story Mode: </strong> Race against AI opponents based on characters from the Initial D anime. </li>
+                                    <li><strong>Time Attack:</strong> Chase the fastest times on every mountain pass.</li>
+                                    <li><strong>Custom Race Mode:</strong> Create your own custom races with personalized settings, opponents, and conditions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- leaderboard -->
+        <div class="row">
+            <div class="bck-solid ">
+                <hr style="margin: 12rem; margin-bottom: 6rem;" id="leaderboard">
+                <h1 class="card-title title text-center">Leaderboard</h1>
+                <br><br>
+                <iframe src="https://www.speedrun.com/Initial_D_Touge_Spirit" height="800px" width="70%" title="Leaderboard"></iframe> 
+            </div>
+        </div>
+
+        <!-- download -->
+        <div class="row">
+            <div class="bck-solid">
+                <hr style="margin: 12rem; margin-bottom: 6rem;" id="download">
+                <h1 class="card-title title text-center">Download</h1>
+                <br><br>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-12 mt-auto mb-5 text-center">
+                            <a href="https://download2269.mediafire.com/xa3pz7lb3gngRgj4Qb37Zqv_fOkFjosDkF_LweEghvvQarYJlH_qwMLk1t7lcTOEwBxnVQEy1kgZUKaJGE70XJTFGL1YteyRmWTrNi-P6CE7U4SuWW4Pc2qI3SD-Y2yOT84pzYqfY86GqIDk8NBFX6INk3Bny5moXv1th5yzsz9U/fya453f99l95yde/Initial+D+Touge+Spirit+-+v1.0.10.rar" class="button-home" style="text-decoration: none;">
+                                <img src="Assets/Download.png" alt="">
+                                <span>Download for windows</span>
+                            </a>
+                            <br>
+                            <button class="btn" data-bs-toggle="modal" data-bs-target="#myModal" style="border: none !important; color: rgba(240, 248, 255, 0.3); text-decoration: underline;">
+                            Download older versions
+                            </button>
+                            <br><br><br>
+                            <p style="margin-bottom: 12rem;">Please note that this is a beta, not a full game. Gameplay, audio, and visual factors may change in the future.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row">
+            <div class="footer-bg text-center">
+                <br>
+                <a href="https://discord.gg/Ph2PFvwGRs" style="margin-right: 1rem; margin-left: 1rem;" target="_blank">Discord Server</a>
+                <a href="https://www.youtube.com/channel/UCUO3NajHE3ojOqiN_zdNaKQ" style="margin-right: 1rem; margin-left: 1rem;" target="_blank">YouTube Channel</a>
+                <br><br>
+                <p>Website Created and Designed by Dániel Tóth - © 2025</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- download older versions modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Download older versions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="" style="color: #0000EE;">Initial D: Touge Spirit v1.0.9a</a> <br>
+                    <a href="" style="color: #0000EE;">Initial D: Touge Spirit v1.0.8</a> <br>
+                    <a href="" style="color: #0000EE;">Initial D: Touge Spirit v1.0.7</a> <br>
+                    <a href="" style="color: #0000EE;">Initial D: Touge Spirit v1.0.6</a> <br>
+                    <a href="" style="color: #0000EE;">Initial D: Touge Spirit v1.0.5</a> <br>
+                </div>
+                <div class="modal-footer">
+                    <p>If any of the links have stopped working, please contact me on the <a href="https://discord.gg/Ph2PFvwGRs" style="color: #0000EE;" target="_blank">discord server</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
